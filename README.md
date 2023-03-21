@@ -1,7 +1,14 @@
-# Pipekit Frontend Take-Home
+# Pipekit Frontend Take-Home (Solution by Ismail Omodara)
 
 This is the take-home challenge for front-end focused software engineers at
 Pipekit
+
+## Summary
+The application logic and user interface was completed according to the specifications
+in the <a href="#prompt">prompt.</a>
+
+The goal was to create a logic and UI that allows user enter a URL and the app returns the list
+of HTML elements on the webpage in a parsed format.
 
 ## Requirements
 - Node 16
@@ -14,6 +21,7 @@ yarn && yarn start
 
 Then go to http://localhost:3000 in your browser
 
+<span id="prompt"></span>
 ## Prompt
 
 Implement a React application that can:

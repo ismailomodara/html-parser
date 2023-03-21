@@ -1,6 +1,6 @@
 export type TreeNode = {
   [key: string]: any
-  children?: TreeNode[]
+  children: TreeNode[]
 }
 
 export interface TreeNodeComponent {

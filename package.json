@@ -8,7 +8,6 @@
   "private": true,
   "scripts": {
     "start": "node server/server.js",
-    "dev": "yarn start",
     "build": "webpack --progress"
   },
   "dependencies": {
@@ -24,7 +23,11 @@
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "html2object": "^1.0.6",
+    "postcss": "^8.4.21",
+    "postcss-import": "^15.1.0",
+    "postcss-import-webpack-resolver": "^1.0.1",
     "postcss-loader": "^7.0.2",
+    "precss": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "npm:@hot-loader/react-dom",
     "react-hot-loader": "^4.13.1",

@@ -1,0 +1,84 @@
+.app-search {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.app-search label {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.app-search input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid #d7dee6;
+}
+
+.app-search input:focus {
+    border-color: #000;
+}
+
+.app-search input::placeholder {
+    opacity: 0.54;
+}
+
+.app-search-message {
+    display: inline-block;
+    line-height: 14px;
+    font-size: 14px;
+    margin-left: 20px;
+    color: red;
+}
+
+.app-search div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-button,
+.app-button-primary {
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    transition: 0.1s;
+    font-weight: normal;
+    font-family: "Outfit", sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 25px;
+    font-size: 14px;
+    border-radius: 6px
+}
+
+.app-button + .app-button {
+    margin-left: 40px;
+}
+
+.app-button-primary {
+    background: #000000;
+    color: #ffffff;
+}
+
+.app-button:disabled {
+    opacity: 0.74;
+    cursor: not-allowed;
+}

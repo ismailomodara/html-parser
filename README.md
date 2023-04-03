@@ -1,7 +1,6 @@
-# Pipekit Frontend Take-Home (Solution by Ismail Omodara)
+# HTML Parser
 
-This is the take-home challenge for front-end focused software engineers at
-Pipekit
+An applicaton built with React and TS that allows a user get the HTML structure of any website.
 
 ## Summary
 The application logic and user interface was completed according to the specifications
@@ -39,14 +38,6 @@ Implement a React application that can:
 - Allow the user to clear the folder structure by clicking on a button that
   says, "Clear"
 - Enable multiple submissions
-
-## Notes
-- This prompt should take an hour or two to complete. If that is not the case,
-  please reach out to the Pipekit member who gave you this take home
-- If you're running into hiccups or have feedback, please reach out as well
-- Certain web pages like https://google.com rely heavily on Javascript and
-  display some strange things. https://pipekit.io and https://github.com are
-  good test cases
 
 ## Wireframe
 ![wireframe](./assets/wireframe.png)
